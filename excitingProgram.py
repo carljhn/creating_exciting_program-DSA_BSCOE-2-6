@@ -14,3 +14,9 @@ def TimeTable():
         m = int(textInput.get())
         textDisplay.insert(END, (x), '\t', " x ", '\t', (m), '\t', " = ", '\t', (x * m))
         textDisplay.insert(END, '\n\n')
+
+#========CONTAINER=========#
+Multiply = Tk ()
+Multiply.title("Times Table")
+Multiply.resizable (0, 0)
+textInput = StringVar()
