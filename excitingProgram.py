@@ -24,3 +24,7 @@ textInput = StringVar()
 #========WIDGET 1=========#
 label = Label(Multiply, text = "Multiplication Table", font = ("arial", 20, "bold"), 
         fg = "black").grid(row = 0, column = 0)
+
+#========WIDGET 2=========#
+txtInput = Entry(Multiply, textvariable = textInput, bd = 30, font = ("arial", 20, "bold"), 
+            insertwidth = 4, bg = "powder blue", justify = "center").grid(row = 1, column = 0)
