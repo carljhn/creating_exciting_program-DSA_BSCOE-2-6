@@ -28,3 +28,7 @@ label = Label(Multiply, text = "Multiplication Table", font = ("arial", 20, "bol
 #========WIDGET 2=========#
 txtInput = Entry(Multiply, textvariable = textInput, bd = 30, font = ("arial", 20, "bold"), 
             insertwidth = 4, bg = "powder blue", justify = "center").grid(row = 1, column = 0)
+
+#========WIDGET 3=========#
+textDisplay = Text(Multiply, width = 30, height = 23, bg = "powder blue", bd =  16, font = ("arial", 10, "bold"))
+textDisplay.grid(row = 2, column = 0)
