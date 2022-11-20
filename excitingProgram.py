@@ -38,3 +38,13 @@ buttonTimesTable = Button(Multiply, padx = 16, pady = 16, bd = 8, fg = "black", 
                     text="Show Times Table", bg = "powder blue", command = TimeTable, width = 18).grid(row = 3, column = 0)
 
 Multiply.mainloop()
+
+#========Application====#
+#   This python program, which is about Time Tables, would be helpful 
+#   especially for younger users who are building a strong foundation on
+#   multiplication of integers. This can be used to help them in mock exams or 
+#   math practices.
+
+#========Reference====#
+#   https://www.youtube.com/watch?v=58HbLHpTBuw
+#   Credits to: DJ Oamen
