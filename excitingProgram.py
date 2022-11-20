@@ -7,3 +7,10 @@
 
 #import tkinter
 from tkinter import *
+
+#define a function for text display
+def TimeTable():
+    for x in range(1, 15):
+        m = int(textInput.get())
+        textDisplay.insert(END, (x), '\t', " x ", '\t', (m), '\t', " = ", '\t', (x * m))
+        textDisplay.insert(END, '\n\n')
