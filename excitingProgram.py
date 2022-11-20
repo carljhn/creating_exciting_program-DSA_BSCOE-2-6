@@ -32,3 +32,7 @@ txtInput = Entry(Multiply, textvariable = textInput, bd = 30, font = ("arial", 2
 #========WIDGET 3=========#
 textDisplay = Text(Multiply, width = 30, height = 23, bg = "powder blue", bd =  16, font = ("arial", 10, "bold"))
 textDisplay.grid(row = 2, column = 0)
+
+#========BUTTON=========#
+buttonTimesTable = Button(Multiply, padx = 16, pady = 16, bd = 8, fg = "black", font = ("arial", 20, "bold"), 
+                    text="Show Times Table", bg = "powder blue", command = TimeTable, width = 18).grid(row = 3, column = 0)
