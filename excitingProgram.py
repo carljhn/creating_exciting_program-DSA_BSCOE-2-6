@@ -20,3 +20,7 @@ Multiply = Tk ()
 Multiply.title("Times Table")
 Multiply.resizable (0, 0)
 textInput = StringVar()
+
+#========WIDGET 1=========#
+label = Label(Multiply, text = "Multiplication Table", font = ("arial", 20, "bold"), 
+        fg = "black").grid(row = 0, column = 0)
